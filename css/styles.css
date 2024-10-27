@@ -883,12 +883,12 @@ header .hero .detail {
     padding-bottom: 80px !important;
   }
   .portfolio .p_courses h3 {
-    text-align: center !important;
     font-size: 30px !important;
     max-width: 500px !important;
+    text-align: center !important;
+    line-height: 1.5 !important;
     margin: 0 auto !important;
     margin-bottom: 10px !important;
-    line-height: 1.5;
   }
   .portfolio .p_courses p {
     font-size: 14px !important;
@@ -929,10 +929,10 @@ header .hero .detail {
   }
   .portfolio .p_courses h3 {
     font-size: 30px !important;
-    margin: 0 auto !important;
     max-width: 500px !important;
     text-align: center !important;
-    line-height: 1.5;
+    line-height: 1.5 !important;
+    margin: 0 auto !important;
     margin-bottom: 10px !important;
   }
   .portfolio .p_courses p {
@@ -1419,12 +1419,11 @@ a {
     margin-bottom: 10px !important;
   }
   .help_area .test p {
-    margin-left: 0 !important;
-    line-height: 1.5;
-    margin-bottom: 10px !important;
     font-size: 14px !important;
-    max-width: 500px !important;
     margin: 0 auto !important;
+    max-width: 500px !important;
+    text-align: center !important;
+    line-height: 1.5;
     margin-bottom: 10px !important;
   }
 }
@@ -1433,7 +1432,6 @@ a {
     margin-bottom: 10px !important;
   }
   .help_area .test p {
-    margin-left: 0 !important;
     font-size: 14px !important;
     margin: 0 auto !important;
     max-width: 500px !important;
