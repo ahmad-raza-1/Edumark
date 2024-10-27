@@ -650,6 +650,11 @@ header .hero .detail {
 }
 .courses .col-6 .courses_detail {
   max-width: 1200px;
+  margin: 0 auto !important;
+}
+.courses .col-6 .courses_stats {
+  max-width: 1200px;
+  margin: 0 auto !important;
 }
 .courses .col-6 .courses_detail h3 {
   color: #2e004b;
@@ -778,7 +783,7 @@ header .hero .detail {
     display: none !important;
   }
   .courses .courses_stats {
-    top: 65px !important;
+    top: 45px !important;
     margin-left: 50px !important;
     display: flex;
     align-items: start;
