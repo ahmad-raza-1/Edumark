@@ -803,13 +803,19 @@ header .hero .detail {
   margin-bottom: 100px;
 }
 .portfolio .p_courses h3 {
-  line-height: 40px;
+  font-size: 46px !important;
+  font-weight: 400;
+  line-height: 52px;
   margin-bottom: 23px;
+  color: #1f1f1f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .portfolio .p_courses p {
-  max-width: 400px;
+  max-width: 450px;
   line-height: 28px;
-  margin-left: 395px;
+  margin: 0 auto !important;
 }
 .folio ul {
   margin-bottom: 100px !important;
@@ -1386,7 +1392,7 @@ a {
   opacity: 0.5;
 }
 .help_area .test p {
-  font-size: 24px;
+  font-size: 16px !important;
   color: #fff;
   font-weight: 400;
   font-family: "Poppins", sans-serif;
@@ -1461,14 +1467,13 @@ a {
   justify-content: center;
 }
 .our_courses .o_courses .detail p {
-  font-size: 17px;
   font-family: "Crimson Text", serif;
   font-weight: 400;
   line-height: 28px;
-  max-width: 400px;
+  max-width: 450px !important;
   text-align: center;
   color: #727272;
-  margin-left: 400px;
+  margin: 0 auto !important;
 }
 .s_course {
   border: 1px solid #e8e8e8;
