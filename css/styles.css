@@ -7,9 +7,16 @@ body {
   color: #727272;
   overflow-x: hidden !important;
 }
+@media (max-width: 768px) {
+  p {
+      font-size: 16px !important; /* Adjust to desired mobile size */
+  }
+}
 html {
-  -webkit-text-size-adjust: 100% !important;
-  -ms-text-size-adjust: 100% !important;
+  font-size: 16px !important; /* Sets 1rem to 16px */
+}
+p {
+  font-size: 1rem !important; /* Adjust this based on your design */
 }
 .ff-poppin {
   font-family: "Poppins", sans-serif;
