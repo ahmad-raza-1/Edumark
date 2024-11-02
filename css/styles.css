@@ -7,16 +7,28 @@ body {
   color: #727272;
   overflow-x: hidden !important;
 }
-@media (max-width: 768px) {
-  p {
-      font-size: 16px !important; /* Adjust to desired mobile size */
+@media (max-width: 1199px) {
+  .portfolio .p_courses p,
+  .help_area .test p {
+    font-size: 12px; /* Adjust this value as needed */
+    margin: 0 auto;
+    max-width: 300px;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: #fff;
   }
 }
 html {
-  font-size: 16px !important; /* Sets 1rem to 16px */
+  font-size: 100%;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
 }
-p {
-  font-size: 1rem !important; /* Adjust this based on your design */
+@media (max-width: 767px) {
+  .portfolio .p_courses p,
+  .help_area .test p {
+    font-size: 12px;
+  }
 }
 .ff-poppin {
   font-family: "Poppins", sans-serif;
@@ -826,7 +838,6 @@ header .hero .detail {
 .portfolio .p_courses p {
   max-width: 450px;
   line-height: 28px;
-  margin-left: 375px !important;
 }
 .folio ul {
   margin-bottom: 100px !important;
@@ -907,14 +918,14 @@ header .hero .detail {
     margin: 0 auto !important;
     margin-bottom: 10px !important;
   }
-  .portfolio .p_courses p {
+  /* .portfolio .p_courses p {
     font-size: 14px !important;
     margin: 0 auto !important;
     max-width: 500px !important;
     text-align: center !important;
     line-height: 1.5;
     margin-bottom: 10px !important;
-  }
+  } */
   .portfolio .p_courses {
     margin-bottom: 0 !important;
     padding-bottom: 80px !important;
@@ -952,14 +963,14 @@ header .hero .detail {
     margin: 0 auto !important;
     margin-bottom: 10px !important;
   }
-  .portfolio .p_courses p {
+  /* .portfolio .p_courses p {
     font-size: 14px !important;
     margin: 0 auto !important;
     max-width: 500px !important;
     text-align: center !important;
     line-height: 1.5;
     margin-bottom: 10px !important;
-  }
+  } */
   .portfolio .p_courses {
     margin-bottom: 0 !important;
     padding-bottom: 80px !important;
@@ -1402,7 +1413,7 @@ a {
   z-index: -1;
   opacity: 0.5;
 }
-.help_area .test p {
+/* .help_area .test p {
   font-size: 16px !important;
   color: #fff;
   font-weight: 400;
@@ -1412,7 +1423,7 @@ a {
   margin-bottom: 22px;
   max-width: 450px;
   margin-left: 375px;
-}
+} */
 .help_area .test span {
   font-size: 16px;
   color: #fff;
@@ -1435,27 +1446,27 @@ a {
   .help_area .test img {
     margin-bottom: 10px !important;
   }
-  .help_area .test p {
+  /* .help_area .test p {
     font-size: 16px !important;
     margin: 0 auto !important;
     max-width: 500px !important;
     text-align: center !important;
     line-height: 1.5;
     margin-bottom: 10px !important;
-  }
+  } */
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .help_area .test img {
     margin-bottom: 10px !important;
   }
-  .help_area .test p {
+  /* .help_area .test p {
     font-size: 14px !important;
     margin: 0 auto !important;
     max-width: 500px !important;
     text-align: center !important;
     line-height: 1.5;
     margin-bottom: 10px !important;
-  }
+  } */
 }
 /***************************/
 /******* our courses *******/
