@@ -815,7 +815,7 @@ header .hero .detail {
 .portfolio .p_courses p {
   max-width: 450px;
   line-height: 28px;
-  margin: 0 auto !important;
+  margin-left: 375px !important;
 }
 .folio ul {
   margin-bottom: 100px !important;
@@ -897,9 +897,9 @@ header .hero .detail {
     margin-bottom: 10px !important;
   }
   .portfolio .p_courses p {
-    font-size: 10px !important;
+    font-size: 14px !important;
     margin: 0 auto !important;
-    max-width: 600px !important;
+    max-width: 500px !important;
     text-align: center !important;
     line-height: 1.5;
     margin-bottom: 10px !important;
@@ -1396,11 +1396,11 @@ a {
   color: #fff;
   font-weight: 400;
   font-family: "Poppins", sans-serif;
-  line-height: 34px;
+  line-height: 28px;
   margin-top: 26px;
   margin-bottom: 22px;
-  max-width: 600px;
-  margin-left: 295px;
+  max-width: 450px;
+  margin-left: 375px;
 }
 .help_area .test span {
   font-size: 16px;
@@ -1425,9 +1425,9 @@ a {
     margin-bottom: 10px !important;
   }
   .help_area .test p {
-    font-size: 10px !important;
+    font-size: 16px !important;
     margin: 0 auto !important;
-    max-width: 600px !important;
+    max-width: 500px !important;
     text-align: center !important;
     line-height: 1.5;
     margin-bottom: 10px !important;
@@ -1473,6 +1473,7 @@ a {
   text-align: center;
   color: #727272;
   margin: 0 auto !important;
+  max-width: 450px !important;
 }
 .s_course {
   border: 1px solid #e8e8e8;
@@ -1659,9 +1660,9 @@ a {
     margin-bottom: 10px !important;
   }
   .our_courses .detail p {
-    font-size: 10px !important;
+    font-size: 14px !important;
     margin: 0 auto !important;
-    max-width: 600px !important;
+    max-width: 500px !important;
     text-align: center !important;
     line-height: 1.5;
     margin-bottom: 10px !important;
